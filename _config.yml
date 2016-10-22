@@ -2,6 +2,9 @@
 title: Barefoot Horse Farrier
 timezone: UTC
 collections:
+  callouts:
+    title: Callouts
+    output: true
   posts:
     title: Posts
     output: true
