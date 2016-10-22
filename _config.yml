@@ -5,8 +5,6 @@ collections:
   callouts:
     title: Callouts
     output: true
-    image:
-      image: "/uploads/rabbit.jpg"
   posts:
     title: Posts
     output: true
