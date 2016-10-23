@@ -9,9 +9,6 @@ collections:
   callouts:
     title: Callouts
     output: true
-  menu:
-    title: Menu
-    output: true
   posts:
     title: Posts
     output: true
