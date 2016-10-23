@@ -12,6 +12,10 @@ collections:
   menu:
     title: Menu
     output: true
+    Field name:
+    - Home
+    - About Me
+    - 
   posts:
     title: Posts
     output: true
