@@ -1,6 +1,7 @@
 ---
 title: About Me
 permalink: "/about/"
+position: 0
 layout: default
 ---
 
