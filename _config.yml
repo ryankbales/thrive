@@ -9,6 +9,9 @@ collections:
   callouts:
     title: Callouts
     output: true
+  hero-image:
+    title: Hero Image
+    output: true
   posts:
     title: Posts
     output: true
