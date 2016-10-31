@@ -7,6 +7,7 @@ sub_menu:
 - HTA-Healing Touch for Animals, /thrive/healing-touch
 - NHC-Natural Hoof Care,  /thrive/nhc-natural-hoof-care
 - Nutrition/Environment, /thrive/nutrition-environment
+menu_name: THRIVE
 ---
 
 Resources for natural equine care.

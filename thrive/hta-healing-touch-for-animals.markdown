@@ -4,6 +4,7 @@ date: 2016-10-23 05:00:00 Z
 permalink: "/thrive/healing-touch/"
 position: 0
 menu_level: subnav
+menu_name: Healing Touch
 ---
 
  HTA-Healing Touch for Animals Page
