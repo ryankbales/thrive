@@ -2,7 +2,9 @@
 // http://neat.bourbon.io
 // Copyright 2012-2015 thoughtbot, inc.
 // MIT License
-
+body {
+  margin: 0;
+}
 // Helpers
 @import "neat-helpers";
 
@@ -24,3 +26,9 @@
 @import "cards";
 @import "tabs";
 @import "menu";
+@import "hero";
+@import "parallax_hero";
+
+.row {
+  padding: 2.5em 0;
+}

@@ -1,23 +1,30 @@
 ---
 title: Central Oregon Equine Barefoot Farrier
 layout: default
+menu_name: Home
 ---
-
-<div class="home">
-  <h1>Thrive Equine</h1>
+<div id="js-parallax-window" class="parallax-window">
+  <div class="parallax-static-content">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo Image" class="hero-logo">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni modi doloremque excepturi laudantium maxime explicabo cumque deleniti voluptate deserunt.</p>
+  </div>
+  <div id="js-parallax-background" class="parallax-background"></div>
 </div>
 
-<div class="cards">
-  {% for callout in site.callouts %}
-    <div class="card">
-      <div class="card-image">
-        <img src={{callout.image.callout_image}} alt="">
+<section class='row'>
+  <div class="cards">
+    {% for callout in site.callouts %}
+      <div class="card">
+        <div class="card-image">
+          <img src={{callout.image.callout_image}} alt="">
+        </div>
+        <div class="card-header">
+          {{callout.title}}
+        </div>
+        <div class="card-copy">
+          <p>{{callout.callout_text}}</p>
+        </div>
       </div>
-      <div class="card-header">
-        {{callout.title}}
-      </div>
-      <div class="card-copy">
-        <p>{{callout.callout_text}}</p>
-      </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
+</section>
