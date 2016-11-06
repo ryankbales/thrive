@@ -1,8 +1,8 @@
-$parallax-window-height: 30em;
+$parallax-window-height: 40em;
 $parallax-background-height: $parallax-window-height * 2;
 
 .parallax-window {
-  max-height: $parallax-window-height;
+  height: $parallax-window-height;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -19,6 +19,7 @@ $parallax-background-height: $parallax-window-height * 2;
 .parallax-background {
   background: url("../../uploads/thrive-wild-horses.jpeg") repeat;
   background-position: top;
+  background-size: cover;
   background-color: beige;
   height: $parallax-background-height;
   left: 0;
