@@ -31,4 +31,7 @@ body {
 
 .row {
   padding: 2.5em 0;
+  &.row-1 {
+    background: #E8EAF6;
+  }
 }

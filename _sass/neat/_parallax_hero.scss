@@ -17,9 +17,8 @@ $parallax-background-height: $parallax-window-height * 2;
 }
 
 .parallax-background {
-  background: url("../../uploads/thrive-wild-horses.jpeg") repeat;
+  background: url("../../uploads/thrive_hero_image.jpg") repeat;
   background-position: top;
-  background-size: cover;
   background-color: beige;
   height: $parallax-background-height;
   left: 0;
