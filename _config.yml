@@ -2,10 +2,6 @@
 title: Barefoot Horse Farrier
 timezone: UTC
 collections:
-  branded-name:
-    title: Branded Name
-    output: true
-    branded_name: THRIVE for Horses
   callouts:
     title: Callouts
     output: true
