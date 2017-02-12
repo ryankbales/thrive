@@ -4,15 +4,23 @@ layout: default
 menu_name: Home
 ---
 
-<div id="js-parallax-window" class="parallax-window">
-  <div class="parallax-static-content">
+<div id="js-parallax-window" class="parallax-window image-gradient-dynamic">
+  <div class="parallax-static-content copy">
     <h1>Thrive For Horses</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni modi doloremque excepturi laudantium maxime explicabo cumque deleniti voluptate deserunt.</p>
   </div>
+  <div class="overlay"></div>
   <div id="js-parallax-background" class="parallax-background"></div>
 </div>
 
 <section class='row row-1'>
+  {% for mission in site.mission-statement %}
+    <h2 class='quote-header'>{{ mission.title }}</h2>
+    <blockquote>{{ mission.content }}</blockquote>
+  {% endfor %}
+</section>
+
+<section class='row row-2'>
   <div class="cards">
     {% for callout in site.callouts %}
       <div class="card">
@@ -28,8 +36,4 @@ menu_name: Home
       </div>
     {% endfor %}
   </div>
-</section>
-
-<section class='row row-1'>
-  
 </section>
